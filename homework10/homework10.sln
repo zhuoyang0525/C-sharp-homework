@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEF", "OEF\OEF.csproj", "{21D556F0-AEC7-4B0B-9397-36DAAB50A26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderAPP", "OrderAPP\OrderAPP.csproj", "{FF680567-D759-4931-B078-1200F624FF98}"
+	ProjectSection(ProjectDependencies) = postProject
+		{21D556F0-AEC7-4B0B-9397-36DAAB50A26D} = {21D556F0-AEC7-4B0B-9397-36DAAB50A26D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21D556F0-AEC7-4B0B-9397-36DAAB50A26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D556F0-AEC7-4B0B-9397-36DAAB50A26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D556F0-AEC7-4B0B-9397-36DAAB50A26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D556F0-AEC7-4B0B-9397-36DAAB50A26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF680567-D759-4931-B078-1200F624FF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF680567-D759-4931-B078-1200F624FF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF680567-D759-4931-B078-1200F624FF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF680567-D759-4931-B078-1200F624FF98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4DD94A1-231F-489B-AC46-EE1EA6E57C82}
+	EndGlobalSection
+EndGlobal
